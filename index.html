@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <!-- Thêm navigation menu -->
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="index.html" class="active">Trang Chủ</a>
+            <a href="./view/about-me.html">Giới Thiệu</a>
+            <a href="./view/my-product.html">Dự Án</a>
+            <a href="./view/contact.html">Liên Hệ</a>
+        </div>
+    </nav>
+
+    <div class="cv-container">
+        <img src="./image/avatar.jpeg" alt="" class="avatar">
+        <header>
+            <h1>Cao Văn Nhân</h1>
+            <p class="subtitle">Thực Tập Sinh Front-End</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="phone"><i class="fa-solid fa-phone"></i> 0389073571</span>
+                </div>
+                <div class="contact-item">
+                    <span class="email"><i class="fa-solid fa-envelope"></i> cvnhan158203@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <span class="facebook"><i class="fa-solid fa-link"></i> facebook.com/TopCV.vn</span>
+                </div>
+                <div class="contact-item">
+                    <span class="address"><i class="fa-solid fa-location-dot"></i> Quận Gò Vấp, Thành Phố Hồ Chí Minh</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>MỤC TIÊU NGHỀ NGHIỆP</h2>
+            <p class="section-content">
+                <ul>
+                    <li>Áp dụng các kiến thức chuyên sâu về HTML, CSS, JavaScript cùng các công cụ và framework hiện đại như Reactjs hoặc Vue.js để phát triển giao diện người dùng thân thiện, hiệu quả và tối ưu hóa trải nghiệm người dùng</li>
+                    <li>Đặt mục tiêu trau dồi kỹ năng lập trình Front End thông qua trải nghiệm thực tiễn, học hỏi từ các chuyên gia trong ngành, đồng thời đóng góp giá trị vào các dự án sáng tạo và chất lượng cao trong vai trò thực tập sinh</li>
+                    <li>Tích lũy thêm kinh nghiệm kỹ năng, sẵn sàng cho tương lai</li>
+                    <li>Mong muốn có được chỗ làm lâu dài, ổn định</li>
+                </ul>
+            </p>
+        </section>
+        
+        <section class="section">
+            <h2>HỌC VẤN</h2>
+            <div class="comon-item">
+                <p>Tên trường học: Đại Học Gia Định</p>
+                <p>Bắt đầu: 2022 - Kết thúc: 2025</p>
+            </div>
+            <p>Ngành học: Kỹ Thuật Phần Mềm / Môn học: Viết CV <br>
+                Mô tả quá trình học tập hoặc thành tích của bạn</p>
+        </section>
+
+        <section class="section">
+            <h2>KINH NGHIỆM KIẾN TẬP</h2>
+            <div class="comon-item">
+                <p>Tên công ty: Công Ty Dịch Vụ MobiFone</p>
+                <p>Bắt đầu: 09/06/2023 - Kết thúc: 09/06/2023</p>
+            </div>
+            <p>Vị trí công việc: Kiến tập Sinh
+                <ul>
+                    <li>Tham gia chương trình kiến tập do trường tổ chức tại Công ty Dịch vụ Mobifone</li> 
+                    <li>Quan sát và tìm hiểu về quy trình hoạt động thực tế trong ngành viễn thông và công nghệ thông tin</li>
+                    <!-- li>Nhận giấy xác nhận tham gia từ công ty</li>< -->
+                </ul>
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>KỸ NĂNG LẬP TRÌNH</h2>
+            <div class="item_skill">
+                <div>
+                <p class="name">Ngôn ngữ lập trình:</p> 
+                <p>HTML, CSS, JavaScript</p>
+                </div>
+                    <div>
+                    <p class="name">Framework/Thư viện Front:</p>
+                    <p>Vue.js, Bootstrap</p>
+                    </div>
+                        <div>
+                        <p class="name">Back End:</p>
+                        <p>Node.js</p>
+                        </div>
+                            <div>
+                            <p class="name">Công cụ:</p>
+                            <p>Git, npm, VS Code </p>
+                            </div>
+                                <div>
+                                <p class="name">Cơ sở dữ liệu:</p>
+                                <p>MongoDB, MySQL, SQL Server</p>
+                                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>DỰ ÁN</h2>
+            <div class="Project_1">
+                <p class="name">Tên dự án: Website thương mại điện tử bán giày</p> <p>//</p>
+                <p class="name">02/2025 - 04/2025</p>
+            </div>
+            <p>Khách hàng: Dự án học tập tại Đại Học Gia Định, phục vụ mục đích báo cáo và đánh giá học kỳ.</p>
+            <p>Số lượng người tham gia: 2</p>
+            <p>Vị trí: Lập trình viên chính</p>
+            <ul>
+               <li>Phát triển website thương mại điện tử bán giày sử dụng Node.js, Express.js, Vue.js và MongoDB làm cơ sở dữ liệu</li> 
+               <li>Thiết kế và triển khai giao diện người dùng (UI) với Vue.js, đảm bảo tính đáp ứng (responsive) và trải nghiệm người dùng mượt mà</li>
+               <li>Xây dựng API với Node.js và Express.js để kết nối Front End và cơ sở dữ liệu MongoDB</li>
+               <li>Phối hợp với thành viên còn lại để hoàn thiện dự án đúng tiến độ</li>
+            </ul>
+            <p class="name">Công nghệ sử dụng: Node.js, Express.js, Vue.js, MongoDB</p>
+            <p class="name">Link GitHub: https://github.com/CVNhan203/shoe-ecommerce-v2</p> 
+        </section>
+
+        <section class="section">
+            <h2></h2>
+            <div class="Project_2">
+                <p class="name">Tên dự án: Website Nhà hàng Ẩm thực "Food Lover Restaurant"</p> <p>//</p>
+                <p class="name">02/2025 - 04/2025</p>
+            </div>
+            <p>Khách hàng: Dự án học tập tại Đại Học Gia Định, phục vụ mục đích báo cáo và đánh giá học kỳ.</p>
+            <p>Số lượng người tham gia: 1</p>
+            <p>Vị trí: Lập trình viên độc lập</p>
+            <ul>
+                <li>Thiết kế và phát triển website nhà hàng "Food Lover Restaurant" sử dụng Spring Boot, tích hợp Master Layout để quản lý giao diện đồng nhất</li> 
+                <li>Triển khai kiến trúc Microservice để tách biệt các chức năng</li>
+                <li>Tích hợp Security để bảo mật dữ liệu người dùng và xác thực quyền truy cập (authentication/authorization)</li>
+                <li>Xây dựng các chức năng CRUD (Create, Read, Update, Delete) cho từng bảng dữ liệu</li>
+                <li>Phát triến API cho từng danh mục (products, customers, users) để hỗ trợ quản lý dữ liệu và giao tiếp giữa Front End và Back End</li>
+            </ul>
+            <p class="name">Công nghệ sử dụng: Spring Boot, HTML, CSS, JavaScript</p>
+            <p class="name">Link GitHub: https://github.com/CVNhan203/food-lover-restaurant2</p>
+        </section>
+
+        <section class="section">
+            <h2>HOẠT ĐỘNG</h2>
+            <div class="comon-item">
+                <p>Tên tổ chức: CLB Cầu Lông trường Đại Học Gia Định-GDU Badminton Club-GBC </p>
+                <p>Bắt đầu: 2022 - Kết thúc: 2025</p>
+            </div>
+            <p>Vị trí của bạn: Thành Viên</p>
+            <ul>
+                <li>GBC là CLB Cầu Lông cho Sinh viên trường Đại Học Gia Định</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>KỸ NĂNG MỀM</h2>
+            <!-- <div class="comon-item"> -->
+                <ul>
+                    <li>Làm việc nhóm</li>
+                    <li>Tự học và thích nghi tốt</li>
+                    <li>Quản lý thời gian</li>
+                    <li>Giao tiếp   </li>
+                    <li>Chú ý đến chi tiết</li>
+                    <li>Tư duy sáng tạo</li>
+                </ul>
+        </section> 
+
+        <section class="section">
+            <h2>SỞ THÍCH</h2>
+            <!-- <div class="comon-item"> -->
+                <ul>
+                    <li>Cầu Lông</li>
+                    <li>Du Lịch</li>
+                    <li>TeamBuilding</li>
+                    <li>Chơi game chiến thuật</li>
+                    <li>Nghe nhạc</li>
+                </ul>
+        </section>
+    </div>
+    <div class="DOC">
+        <button id="exportBtn" class="export-btn">Xuất file PDF</button>
+    </div>
+</body>
+</html>
+<script src="./js/export.js"></script>
+

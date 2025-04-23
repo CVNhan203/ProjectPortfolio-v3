@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Quản Trị</title>
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <nav class="admin-sidebar">
+            <div class="admin-header">
+                <h2>Admin Panel</h2>
+            </div>
+            <ul class="admin-menu">
+                <li><a href="#dashboard" class="active"><i class="fas fa-home"></i> Trang Chủ</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Quản Lý Dự Án</a></li>
+                <li><a href="#skills"><i class="fas fa-tools"></i> Quản Lý Kỹ Năng</a></li>
+                <li><a href="#profile"><i class="fas fa-user"></i> Thông Tin Cá Nhân</a></li>
+                <li><a href="#" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Đăng Xuất</a></li>
+            </ul>
+        </nav>
+        
+        <main class="admin-content">
+            <header class="admin-topbar">
+                <h1>Chào mừng đến với Trang Quản Trị</h1>
+                <div class="admin-user">
+                    <span>Admin</span>
+                    <img src="../image/avatar.jpeg" alt="Admin Avatar">
+                </div>
+            </header>
+            
+            <div class="admin-dashboard">
+                <div class="dashboard-card">
+                    <h3>Tổng Số Dự Án</h3>
+                    <p>2</p>
+                </div>
+                <div class="dashboard-card">
+                    <h3>Kỹ Năng</h3>
+                    <p>6</p>
+                </div>
+                <div class="dashboard-card">
+                    <h3>Lượt Truy Cập</h3>
+                    <p>150</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="../js/admin.js"></script>
+</body>
+</html>
